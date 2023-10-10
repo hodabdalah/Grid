@@ -1,0 +1,35 @@
+body{
+    background-color: rgba(251, 255, 250, 0);
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+.Grid{
+background-color: rgb(211, 189, 204);
+text-align: center;
+padding: 30px;
+max-width: 600px;
+margin: 0 auto;
+display: grid;
+
+}
+form{
+    background-color: azure;
+    display: grid;
+}
+input:focus{
+    background-color: lightblue;
+}
+input{
+    padding: 10px;
+    margin: 10px;
+    border:0;
+    background-color: transparent;
+    border-bottom: 1px solid rgb(177, 170, 170)
+}
+.submit{
+    background-color: beige;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+}
